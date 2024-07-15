@@ -1,0 +1,262 @@
+.btn{
+    background-color: #f96;
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 010px;
+    transition: background-color 0.3s;
+    border: 1px;
+}
+.delbtn{
+    background-color: red;
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 010px;
+    transition: background-color 0.3s;
+    border: 1px;
+}
+
+/*-------header--------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf0e7;
+    background-image:url('https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=600') ;
+    background-size: cover;
+
+}
+.nav-bar{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    background-color: #333;
+    margin-top: -2px;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+}
+
+logo-1{
+    color:#ffc41a;
+
+}
+.nav-bar li {
+    margin: 10px;
+    margin-top:10px;
+
+}
+
+.nav-bar a{
+
+        display: block;
+        padding: 15px 60px;
+        color: #e7ecff;
+        text-decoration: none;
+        margin-top:10px;
+    
+    
+}
+.nav-bar li {
+
+	
+
+    margin: 10px;
+
+    margin-top:10px;
+
+}
+
+.nav-bar a:hover{
+    background-color: #575757; 
+}
+
+.email {
+
+	background-color:#212bf6;
+	font-size:20px;
+	margin-top:10px;
+}
+
+.email a:hover {
+
+	color:#b2cae9;
+
+}
+
+/*-------header css end--------*/
+
+
+/*-------footer css--------*/
+
+
+.footer{
+    background:#333;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.9em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }.container {
+        position: bottom;
+        left: 700px;
+        /* text-align: center; */
+        margin-top: 100000px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        width: 500px;
+        height: auto;
+        margin:auto;
+        margin-bottom: 200px;
+        background-color: #6d6d6d;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin-bottom: 300px;
+        padding-left: 40px;
+    }
+    
+    .container h2 {
+        
+        text-align: center;
+        padding-top: 20px;
+        font-size: 35px;
+        text-decoration: underline;
+    }
+    
+    .container input[type=button]{
+        display: inline-block;
+        margin-left: 10px;
+        background-color: #f96;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin-top: 20px;
+        border-radius: 010px;
+        transition: background-color 0.3s;
+        border: 1px;
+    }
+    
+    .container input[type=button]:hover {
+        background-color: #5f5f5f;
+        color: #f96;
+    }
+    
+    input[type="password"] {
+        width: 95%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    /*----Dashbord css-----*/
+
+    /* Center the registration form */
+.registration-form {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select,
+input[type="number"],
+input[type="submit"]
+input[type="password"],
+input[type="tel"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.SubmitBTN:hover{
+   background-color: aqua;
+}
+
+/* Add more CSS styles as needed */
+
+
+
+
+
